@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5E975A0E-3F58-4D2D-B6E1-13B47D70FCD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SITHEC.API", "SITHEC.API", "{012E82AF-DF75-4F47-9362-F4A81B9B6D4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SITHEC.Application", "SITHEC.Application", "{4936BD61-2059-46B5-BC67-7DD22666DAA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SITHEC.Infrastructure", "SITHEC.Infrastructure", "{B9C1946F-F797-4646-A4AB-F30D18278324}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SITHEC.Application", "src\SITHEC.Application\SITHEC.Application.csproj", "{D850F0F7-E238-454D-862B-05C13C702685}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SITHEC.Infrastructure", "src\SITHEC.Infrastructure\SITHEC.Infrastructure.csproj", "{CB12DFFC-9210-499B-AAEC-F3E04BD8ACBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SITHEC.API", "src\SITHEC.API\SITHEC.API.csproj", "{BA4A6147-BB80-42EB-AB64-8A43C2718846}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D850F0F7-E238-454D-862B-05C13C702685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D850F0F7-E238-454D-862B-05C13C702685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D850F0F7-E238-454D-862B-05C13C702685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D850F0F7-E238-454D-862B-05C13C702685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB12DFFC-9210-499B-AAEC-F3E04BD8ACBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB12DFFC-9210-499B-AAEC-F3E04BD8ACBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB12DFFC-9210-499B-AAEC-F3E04BD8ACBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB12DFFC-9210-499B-AAEC-F3E04BD8ACBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA4A6147-BB80-42EB-AB64-8A43C2718846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA4A6147-BB80-42EB-AB64-8A43C2718846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA4A6147-BB80-42EB-AB64-8A43C2718846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA4A6147-BB80-42EB-AB64-8A43C2718846}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{012E82AF-DF75-4F47-9362-F4A81B9B6D4B} = {5E975A0E-3F58-4D2D-B6E1-13B47D70FCD3}
+		{4936BD61-2059-46B5-BC67-7DD22666DAA9} = {5E975A0E-3F58-4D2D-B6E1-13B47D70FCD3}
+		{B9C1946F-F797-4646-A4AB-F30D18278324} = {5E975A0E-3F58-4D2D-B6E1-13B47D70FCD3}
+		{D850F0F7-E238-454D-862B-05C13C702685} = {4936BD61-2059-46B5-BC67-7DD22666DAA9}
+		{CB12DFFC-9210-499B-AAEC-F3E04BD8ACBD} = {B9C1946F-F797-4646-A4AB-F30D18278324}
+		{BA4A6147-BB80-42EB-AB64-8A43C2718846} = {012E82AF-DF75-4F47-9362-F4A81B9B6D4B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6950B3FF-C8E0-4DD5-9825-1916FE4A5DBA}
+	EndGlobalSection
+EndGlobal
